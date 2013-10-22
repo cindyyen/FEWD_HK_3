@@ -1,0 +1,13 @@
+@media screen and (min-width: 30em) {
+	.msg {
+		color: #8C8C8C;
+		font-family: 'Lato', 'Helvetic Neue Light', Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		font-size: 12px;
+		line-height: 0.5;
+		letter-spacing: -0.5px;
+		text-align: center;
+		margin-top: 10%;
+		padding: 3em;
+	}
+}
