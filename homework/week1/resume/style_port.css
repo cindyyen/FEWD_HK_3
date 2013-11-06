@@ -1,4 +1,20 @@
-.row { width: 100%; max-width: 980px; min-width: 727px; margin: 0 auto; }
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.row { 
+	width: 100%;
+	max-width: 980px;
+	min-width: 727px;
+	margin: 0 auto;
+	margin-bottom: 24px;
+}
 
 .nav {
 	margin-bottom: 45px;
