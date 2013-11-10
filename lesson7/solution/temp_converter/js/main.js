@@ -2,14 +2,14 @@ document.getElementById('celsius').onkeydown = convert;
 document.getElementById('farhenheit').onkeydown = convert;
 
 function convert(){
-	if (celsius == this.id) {
-		var celsius = getElementById('celsius').value
+	if ('celsius' == this.id) {
+		var celsius = this.value;
 		farhenheit = convertCelsiusToFarhenheit(celsius);
-		document.getElementById('farhenheit').value = farhenheit;
-	} else if (farhenheit == this.id) {
-		var farhenheit = document.getElementById('farhenheit').value
+		this.nextElementSibling.value = farhenheit;
+	} else if ('farhenheit' == this.id) {
+		var farhenheit = this.value;
 		celsius = convertFarhenheitToCelsius(farhenheit);
-		document.getElementById('celsius').value = celsius;
+		this.previousElementSibling.value = celsius;
 	}
 }
 
