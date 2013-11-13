@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
 	background-color: #56A1BF;
 }
@@ -69,18 +68,3 @@ footer {
 a {
 	text-decoration: none;
 }
-=======
-#tempConverter {
-	width: 400px;
-	margin: 0 auto;
-}
-#tempConverter button {
-	display: block;
-	margin: 0 auto;
-	margin-top:32px;
-}
-
-#tempConverter input {}
-
-#tempConverter span {}
->>>>>>> 4815ca1bcaa9374c4f309284a0de4b3444236b75
