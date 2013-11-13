@@ -48,7 +48,7 @@ function compare (userInput, computerInput) {
 function playedRock(){
 	userInput = "rock";
 	console.log(userInput);
-	compare (userInput, getRgiobotInput());
+	compare (userInput, getRgiPobotInput());
 }
 
 function playedPaper(){
